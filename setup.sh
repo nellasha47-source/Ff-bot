@@ -96,7 +96,7 @@ else
     skip "Git already installed"
 fi
 
-python -m pip install
+python -m pip install pyzipper
 python -m pip install --upgrade pip >/dev/null 2>&1 || true
 ok "pip is up to date"
 
